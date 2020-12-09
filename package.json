@@ -1,0 +1,26 @@
+{
+  "name": "smrtCoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandrogiorlando/smrtCoin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandrogiorlando/smrtCoin/issues"
+  },
+  "homepage": "https://github.com/alejandrogiorlando/smrtCoin#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.0"
+  }
+}
