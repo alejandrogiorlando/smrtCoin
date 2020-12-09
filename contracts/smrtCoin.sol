@@ -27,7 +27,7 @@ pragma solidity ^0.6.12;
         balances[receiver] += amount;
     }
 
-    function getBalance() public view returns(uint){
-        return balances[msg.sender];
+    function getBalance(address adr) public view returns(uint){
+        return balances[adr];
     }
  }

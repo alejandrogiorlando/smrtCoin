@@ -1,5 +1,5 @@
-const HDWalletProvider = require("@truffle/hdwallet-provider");
-const teamsMnemonic = "suffer crowd exercise fun unveil hospital diet foam endless until town boat";
+//const HDWalletProvider = require("@truffle/hdwallet-provider");
+//const teamsMnemonic = "suffer crowd exercise fun unveil hospital diet foam endless until town boat";
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
@@ -21,7 +21,9 @@ const teamsMnemonic = "suffer crowd exercise fun unveil hospital diet foam endle
  *
  */
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+const dotenv = require('dotenv');
+dotenv.config();
 // const infuraKey = "fj4jll3k.....";
 //
 // const fs = require('fs');
@@ -51,12 +53,7 @@ module.exports = {
     //  network_id: "*",       // Any network (default: none)
     // },
 
-    teams: {
-      provider: function() {
-        return new HDWalletProvider(teamsMnemonic, "https://sandbox.truffleteams.com/4e77c825-67d9-46a4-ba25-14083f6851f7", 0, 10, false);
-      },
-      network_id: 1607548809136,
-    }
+    
     // Another network with more advanced options...
     // advanced: {
     // port: 8777,             // Custom port
@@ -82,6 +79,12 @@ module.exports = {
     // network_id: 2111,   // This network is yours, in the cloud.
     // production: true    // Treats this network as if it was a public net. (default: false)
     // }
+    teams: {
+      provider: function() {
+        return new HDWalletProvider(process.env.MNEMONIC, "https://sandbox.truffleteams.com/4e77c825-67d9-46a4-ba25-14083f6851f7", 0, 10, false);
+      },
+      network_id: 1607548809136,
+    }
   },
 
   // Set default mocha options here, use special reporters etc.
