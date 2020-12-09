@@ -1,5 +1,5 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-const teamsMnemonic = "gather chaos tragic buzz firm miss material leave identify garden idea train";
+const teamsMnemonic = "suffer crowd exercise fun unveil hospital diet foam endless until town boat";
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
@@ -53,9 +53,9 @@ module.exports = {
 
     teams: {
       provider: function() {
-        return new HDWalletProvider(teamsMnemonic, "https://sandbox.truffleteams.com/cba5887a-f3b6-479f-b6a0-ab5a0fa7c877", 0, 10, false);
+        return new HDWalletProvider(teamsMnemonic, "https://sandbox.truffleteams.com/4e77c825-67d9-46a4-ba25-14083f6851f7", 0, 10, false);
       },
-      network_id: 1,
+      network_id: 1607548809136,
     }
     // Another network with more advanced options...
     // advanced: {
