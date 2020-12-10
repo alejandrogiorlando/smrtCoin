@@ -81,7 +81,7 @@ module.exports = {
     // }
     teams: {
       provider: function() {
-        return new HDWalletProvider(process.env.MNEMONIC, "	https://sandbox.truffleteams.com/4e77c825-67d9-46a4-ba25-14083f6851f7", 0, 10, false);
+        return new HDWalletProvider(process.env.MNEMONIC, "https://sandbox.truffleteams.com/4e77c825-67d9-46a4-ba25-14083f6851f7", 0, 10, false);
       },
       network_id: 1607548809136,
     }

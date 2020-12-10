@@ -897,12 +897,6 @@
       "events": {},
       "address": "0xd69081dC02AdC76ADDFF68a97da8b9b13a9ffF97",
       "transactionHash": "0xbe35a013f3f42706ee2fc3a198f64e37f5e59cf4c0b9bbd053f1611a362b56c9"
-    },
-    "1607548809136": {
-      "links": {},
-      "events": {},
-      "address": "0xd18c78824f8eDe6F6642E114E1c0c904475005de",
-      "transactionHash": "0x3139259ad31dc431488aeb8bbd4f564f1e9cb6c9f59872a09c5d36ffe5c207b2"
     }
   },
   "schemaVersion": "3.3.2",
