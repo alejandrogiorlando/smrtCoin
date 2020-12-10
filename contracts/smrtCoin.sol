@@ -31,3 +31,5 @@ pragma solidity ^0.6.12;
         return balances[adr];
     }
  }
+
+ //01:09 aprox

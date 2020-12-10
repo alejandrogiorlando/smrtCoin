@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/alejandrogiorlando/smrtCoin#readme",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.2.0"
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "yarn": "^1.22.10"
   }
 }
