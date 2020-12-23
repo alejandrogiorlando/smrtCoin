@@ -1,4 +1,7 @@
 //pragma
+
+/*
+
 pragma solidity ^0.6.12; 
 
 import "truffle/Assert.sol";
@@ -16,3 +19,5 @@ contract testSmrtCoin{
     }
 
 }
+
+*/
