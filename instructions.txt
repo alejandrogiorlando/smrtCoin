@@ -1,0 +1,44 @@
+	how to create a new truffle project 
+	step by step
+	
+	- create folder 
+		- instalar node.js
+		- npm version (version de nodejs)
+		- instalar truffle --> npm install -g truffle
+		- inicializar un proyecto dentro de la carpeta
+			-->git init
+		- en GIT:
+			-- Crear repositorio 
+		- vincular desde la consola de git 
+			-- git remote add origin https://github.com/alejandrogiorlando/smrtCoin.git
+		- chequear si se conecto
+			-- git remote get-url origin
+		-crear un archivo
+			-- touch README.md
+		- agregar commit
+			-- git add -A
+			-- git commit
+				(levanta el archivo -> pulsar F para insert -> "comentario" --> guardar-> tecla esc, :wq)
+		- inicializar proyecto truffle
+			-- truffle init
+		- Abrir con visual Studio Code
+			-- code .
+		- Agregar commit (como antes)
+		- Guardar commit y sincronizar con git
+			--> git push origin master
+
+		- truffle buid -> crea carpeta buid/contracts (ver VisualStudioCode)
+		
+		DESDE TRUFFLE TEAMS
+			hacer deploy del py
+
+
+
+(del mejicano, en la primera parte a. 00:50:00 aprox arranca de cero)
+
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x407d73d8a49eeb85d32cf465507dd71d507100c1", "latest"],"id":1}' https://sandbox.truffleteams.com/4e77c825-67d9-46a4-ba25-14083f6851f7
+
+owner = '0xA9a3E63EA793E5BA3018a6E4b849d69c339260b0'
+
+coin.getBalance('0xA9a3E63EA793E5BA3018a6E4b849d69c339260b0').then(bn => bn.toNumber())
+	

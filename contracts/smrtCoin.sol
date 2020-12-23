@@ -16,13 +16,13 @@ pragma solidity ^0.6.12;
 
     //constructor
     constructor() public{
-        balances[msg.sender] = 1000;
+        balances[msg.sender] = 1000000;
     }
 
 
     //Metodos
     function send(address receiver, uint amount) public {
-        require (balances[msg.sender] > amount);
+        require(balances[msg.sender] > amount);
         balances[msg.sender] -= amount;
         balances[receiver] += amount;
     }
@@ -31,3 +31,4 @@ pragma solidity ^0.6.12;
         return balances[adr];
     }
  }
+// 1:23:29
