@@ -12,7 +12,7 @@ contract testSmrtCoin{
 
         uint expectedBalance = 1000000;
 
-        Assert.equal(meta.getBalance(tx.origin), expected, 'First account does not have a 1000000 coins');
+        Assert.equal(meta.getBalance(tx.origin), expected, 'First account does not have a 1000000 coins')
     };
 
 }
