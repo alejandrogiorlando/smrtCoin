@@ -15,8 +15,8 @@ pragma solidity ^0.6.12;
     mapping (address => uint256) balances;
 
     //constructor
-    constructor(uint initial_value) public{
-        balances[msg.sender] = initial_value;
+    constructor() public{
+        balances[msg.sender] = 1000000;
     }
 
 
